@@ -13,7 +13,10 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --write .",
-    "prepere": "husky install"
+    "prepare": "husky install",
+    "check-types": "tsc --pretty --noEmit --incremental false",
+    "pre-commit": "npm install",
+    "pre-push": "npm run check-types"
   },
   "dependencies": {
     "@next/font": "13.1.6",

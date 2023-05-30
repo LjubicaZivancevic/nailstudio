@@ -1,16 +1,16 @@
 {
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "html.format.enable": true,
-  "typescript.format.enable": true,
-  "editor.fontWeight": "normal",
-  "editor.formatOnPaste": true,
-  "files.eol": "\n"
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"html.format.enable": true,
+	"typescript.format.enable": true,
+	"editor.fontWeight": "normal",
+	"editor.formatOnPaste": true,
+	"files.eol": "\n"
 }

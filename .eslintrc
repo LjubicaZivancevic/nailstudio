@@ -1,17 +1,17 @@
 {
-  "extends": [
-    "next",
-    "eslint:recommended",
-    "prettier",
-    "eslint-config-airbnb-base",
-    "plugin:@typescript-eslint/recommended",
-    "eslint-config-prettier"
-  ],
-  "globals": {
-    "React": "readonly"
-  },
-  "parser": "@typescript-eslint/parser",
-  "rules": {
-    "no-unsaved-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }]
-  }
+	"extends": [
+		"next",
+		"eslint:recommended",
+		"prettier",
+		"eslint-config-airbnb-base",
+		"plugin:@typescript-eslint/recommended",
+		"eslint-config-prettier"
+	],
+	"globals": {
+		"React": "readonly"
+	},
+	"parser": "@typescript-eslint/parser",
+	"rules": {
+		"no-unsaved-vars": "off"
+	}
 }

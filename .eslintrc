@@ -5,7 +5,8 @@
 		"prettier",
 		"eslint-config-airbnb-base",
 		"plugin:@typescript-eslint/recommended",
-		"eslint-config-prettier"
+		"eslint-config-prettier",
+		"plugin:storybook/recommended"
 	],
 	"globals": {
 		"React": "readonly"
@@ -13,5 +14,17 @@
 	"parser": "@typescript-eslint/parser",
 	"rules": {
 		"no-unsaved-vars": "off"
-	}
+	},
+	"overrides": [
+		{
+			// or whatever matches stories specified in .storybook/main.js
+			"files": ["*.stories.@(ts|tsx|js|jsx|mjs|cjs)"],
+			"rules": {
+				// example of overriding a rule
+				"storybook/hierarchy-separator": "error",
+				// example of disabling a rule
+				"storybook/default-exports": "off"
+			}
+		}
+	]
 }
